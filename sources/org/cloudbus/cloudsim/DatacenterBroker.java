@@ -207,6 +207,7 @@ public class DatacenterBroker extends SimEntity {
 				vmTasks[idx]++;
 				cloudletList.get(i).setVmId(vmList.get(idx).getId());
 				System.out.print(i+"th "+"vmLoad["+idx+"]="+vmLoad[idx]+"minLoad="+minLoad);
+				System.out.println("ÄãºÃÂð");
 				System.out.println();
 			}
 		}
